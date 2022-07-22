@@ -2,37 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.playback{
+  height: 700px;
+  width: 100%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.DetailsBox{
+  margin-top: 11%;
+  height: 500px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#boxIs{
+  height: 380px;
+}
+
+.trailerBox{
+  height: 400px;
+  padding: 3% 6%;
+}
+
+.Head{
+  text-align: start;
+  margin-left: 5%;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.HeadRel{
+  text-align: start;
+  margin-left: 11%;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: -3%;
+}
+
+.trailerBox>div>img{
+  margin-top: 2%;
+  height: 80%;
+  width: 30%;
+  border-radius: 12px;
+}
+
+.CastBox{
+  height: 290px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 3% 0%;
 }
 
-.App-link {
-  color: #61dafb;
+.CastBox>div{
+  width: 15%;
+  height: 95%;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CastBox>div>img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.blackDiv{
+  padding: 4% 0%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(167, 167, 163);
 }

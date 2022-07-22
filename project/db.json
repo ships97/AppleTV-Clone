@@ -1,0 +1,94 @@
+
+{
+    "data": [
+        {
+            "image":
+              "https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/1478x832.webp",
+            "genre": "THRILLER",
+            "title": "Severance",
+            "desc": "Adam Scott stars in this darkly gripping series from director Ben Stiller.",
+            "link": "./Inner Pages/severance.html"
+          },
+          {
+            "image":
+              "https://is1-ssl.mzstatic.com/image/thumb/L79If4rL5GAF2ffGc7jBRg/1478x832.webp",
+            "genre": "DOCUMENTARY",
+            "title": "Lincoln's Dilemma",
+            "desc": "Diverse voices offer a 21st-century take on Lincoln's legacy and stance on slavery.",
+            "link": "./Inner Pages/lincolnDilemma.html"
+          },
+          {
+            "image":
+              "https://is3-ssl.mzstatic.com/image/thumb/cyRvgYnPlaVn3rN2SDdW1Q/1478x832.webp",
+            "genre": "DRAMA",
+            "title": "The Sky Is Everywhere",
+            "desc": "A conflicted teen navigates first love-and first loss-using her vivid imagination.",
+            "link": "./Inner Pages/theSkyIsEverywhere.html"
+          },
+          {
+            "image":
+              "https://is5-ssl.mzstatic.com/image/thumb/_Kq-GgPdDxxqWtSZ9GbHug/1478x832.webp",
+            "genre": "KIDS & FAMILY",
+            "title": "Pretzel and the Puppies",
+            "desc": "Meet a lovable dachshund family ready to 'make their bark' on the world.",
+            "link": "./Inner Pages/PretzelAndThePuppies.html"
+          },
+          {
+            "image":
+              "https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/1478x832.webp",
+            "genre": "THRILLER",
+            "title": "Suspicion",
+            "desc": "Four people embark on a against time after being accused of a kidnapping.",
+            "link": "./Inner Pages/suspicion.html"
+          },
+          {
+            "image":
+              "https://is2-ssl.mzstatic.com/image/thumb/dbEKo7rp5RGNNDrCbA7AUQ/1478x832.webp",
+            "genre": "COMEDY",
+            "title": "The Afterparty",
+            "desc": "An all-star cast leads this hilarious mystery about a high school reunion murder.",
+            "link": "./Inner Pages/theAfterParty.html"
+          },
+          {
+            "image":
+              "https://is2-ssl.mzstatic.com/image/thumb/6tJakyTEtS0vrgdc9POZpg/1478x832.webp",
+            "genre": "THRILLER",
+            "title": "Servant",
+            "desc": "The Turners and Leanne return for a new season of shocking twists and turns.",
+            "link": ""
+          },
+          {
+            "image":
+              "https://is5-ssl.mzstatic.com/image/thumb/owNSUO3F109RC75YDPMY7A/1478x832.webp",
+            "genre": "KIDS & FAMILY",
+            "title": "Fraggle Rock: Back to the Rock",
+            "desc": "Dance, sing, and laugh-the lovable Fraggles are back with all-new adventures.",
+            "link": ""
+          },
+          {
+            "image":
+              "https://is2-ssl.mzstatic.com/image/thumb/8593WFOGVTTA1ncIGrL37g/1478x832.webp",
+            "genre": "DRAMA",
+            "title": "The Tragedy of Macbeth",
+            "desc": "A tale of murder, madness, ambition, and wrathful cunning.",
+            "link": ""
+          },
+          {
+            "image":
+              "https://is3-ssl.mzstatic.com/image/thumb/FPk1ym0HabNrpWLpYYBF5g/1478x832.webp",
+            "genre": "ANIMATION",
+            "title": "El Deafo",
+            "desc": "After losing her hearing, Cece learns that differences can make you super.",
+            "link": ""
+          },
+          {
+            "image":
+              "https://is3-ssl.mzstatic.com/image/thumb/k-4X4dDwJrtXlsgr1VI_0w/1478x832.webp",
+            "genre": "DRAMA",
+            "title": "Swan Song",
+            "desc": "Mahershala Ali grapples with altering his family's fate in a tale of love, loss and sacrifice.",
+            "link": ""
+          }
+        ]
+    
+  }
