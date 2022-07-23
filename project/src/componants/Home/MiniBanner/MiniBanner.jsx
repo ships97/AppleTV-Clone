@@ -63,7 +63,7 @@ export default function MiniBanner({ data }) {
           zIndex={2}
           onClick={() => slider?.slickPrev()}
         >
-          <BiLeftArrowAlt size="40px" />
+          <BiLeftArrowAlt size="30px" />
         </IconButton>
         {/* Right Icon */}
         <IconButton
@@ -76,7 +76,7 @@ export default function MiniBanner({ data }) {
           zIndex={2}
           onClick={() => slider?.slickNext()}
         >
-          <BiRightArrowAlt size="40px" />
+          <BiRightArrowAlt size="30px" />
         </IconButton>
         {/* Slider */}
         <Slider {...settings} ref={(slider) => setSlider(slider)}>

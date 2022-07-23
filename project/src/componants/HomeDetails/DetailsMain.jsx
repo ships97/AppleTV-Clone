@@ -1,7 +1,7 @@
 
 import { Box } from "@chakra-ui/react";
 import { DetailsCard } from "../Home/MiniCard/DetailsCard";
-import { CastData, RelatedData, SeasonData } from "../Home/Data/DetailsData";
+import { RelatedData, SeasonData } from "../Home/Data/DetailsData";
 import { RelatedCard } from "../Home/MiniCard/RelatedCard";
 import { DetailsFooter } from "./DetailsFooter";
 
@@ -81,13 +81,8 @@ export const DetailsMain = () => {
             </div>
         </div>
 
-        
+        <DetailsFooter />
 
-
-         <DetailsFooter />
-
-
-        
         </>
     )
 }

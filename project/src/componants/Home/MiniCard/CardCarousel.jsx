@@ -11,23 +11,23 @@ export const CardCarousel = ({ data, title, minititle }) => {
   const navigate = useNavigate()
 
   return (
-    <Box className="minicard" p={3} pt={5}>
+    <Box className="minicard" pt={5}>
       <Heading
         size={{ base: "md", md: "md", lg: "md" }}
         align={"start"}
-        ml={{ base: 20, md: 40, lg: 40 }}
+        ml={{ base: 10, md: 20, lg: 20 }}
       >
         {title}
       </Heading>
       <Text
         size={{ base: "md", md: "lg", lg: "lg" }}
         align={"start"}
-        ml={{ base: 20, md: 40, lg: 40 }}
+        ml={{ base: 10, md: 20, lg: 20 }}
       >
         {minititle}
       </Text>
       <Carousel
-        p={6}
+        // p={6}
         updateOnItemClick
         containerProps={{
           style: {
@@ -54,7 +54,7 @@ export const CardCarousel = ({ data, title, minititle }) => {
         backwardBtnProps={{
           children: "<",
           style: {
-            width: 60,
+            width: 50,
             height: 60,
             minWidth: 60,
             alignSelf: "center",

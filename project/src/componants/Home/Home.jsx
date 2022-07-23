@@ -26,12 +26,13 @@ function Home() {
       <Banner />
       <CardCarousel
         data={comingSoon}
-        title={"Coming Soon"}
-        minititle={"Add to your Up Next watchlist today."}
+        title={"Trying: Watch Season 1 Free Through This Weekend"}
+        minititle={"A London couple wants to start a family in this heartfelt comedy."}
       />
-      <CardCarousel data={tales} title={"Eerie Tales"} />
-      <CardCarousel data={mysteries} title={"Mysteries & Whodunits"} />
-      <CardCarousel data={voice} title={"Finding Thier Voice"} />
+      <CardCarousel data={tales} title={"Most Popular Now"}  />
+      <CardCarousel data={mysteries} title={"Emmy Nominees"} 
+          minititle={"Explore the series that are up for television's biggest prize."} />
+      <CardCarousel data={voice} title={"Watch Entire Seasons"} />
       <MiniBanner data={jumboSliderData} />
       <CardCarousel data={extraOrd} title={"Extraordinary People"} />
       <CardCarousel data={creatures} title={"Creatures & Critters"} />
