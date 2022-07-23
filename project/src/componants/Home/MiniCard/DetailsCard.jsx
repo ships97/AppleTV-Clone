@@ -5,7 +5,7 @@ import { Heading, Box, Text, Divider } from "@chakra-ui/react";
 import "./CardCaro.css";
 import { useNavigate } from "react-router-dom";
 
-export const RelatedCard = ({ data, title, minititle }) => {
+export const DetailsCard = ({ data, title, minititle }) => {
 
   const [activeSlide, setActiveSlide] = useState(0);
   const navigate = useNavigate()
@@ -15,14 +15,14 @@ export const RelatedCard = ({ data, title, minititle }) => {
       <Heading
         size={{ base: "md", md: "md", lg: "md" }}
         align={"start"}
-        ml={{ base: 20, md: 40, lg: 40 }}
+        ml={{ base: 10, md: 20, lg: 20 }}
       >
         {title}
       </Heading>
       <Text
         size={{ base: "md", md: "lg", lg: "lg" }}
         align={"start"}
-        ml={{ base: 20, md: 40, lg: 40 }}
+        ml={{ base: 10, md: 20, lg: 20 }}
       >
         {minititle}
       </Text>
@@ -46,17 +46,17 @@ export const RelatedCard = ({ data, title, minititle }) => {
           children: ">",
           style: {
             width: 50,
-            height: 60,
-            minWidth: 60,
+            height: 50,
+            minWidth: 50,
             alignSelf: "center",
           },
         }}
         backwardBtnProps={{
           children: "<",
           style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
+            width: 50,
+            height: 50,
+            minWidth: 50,
             alignSelf: "center",
           },
         }}
@@ -66,10 +66,10 @@ export const RelatedCard = ({ data, title, minititle }) => {
       >
         {data.map((item, index) => (
           <Box onClick={() => navigate(`/details/${item.id}`)}
-            width={{ base: "420px", md: "420px", lg: "420px" }}
+            width={{ base: "480px", md: "480px", lg: "480px" }}
             p={5}
             style={{
-              height: 250,
+              height: 400,
               textAlign: "center",
               // lineHeight: "240px",
               borderRadius: "20px",
@@ -84,6 +84,11 @@ export const RelatedCard = ({ data, title, minititle }) => {
               }}
               src={item.image}
             />
+            <h2>{item.episode}</h2>
+            <h1>{item.title}</h1>
+            <p>{item.description}</p>
+            <p>{item.time}</p>
+
           </Box>
         ))}
       </Carousel>

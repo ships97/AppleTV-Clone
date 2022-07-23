@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../Home/Home";
-import { HomeDetails } from "../HomeDetails/HomeDetails"
+import { HomeDetails } from "../HomeDetails/HomeDetails";
 
 export const AllRoutes = () => {
 

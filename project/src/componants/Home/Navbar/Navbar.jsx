@@ -35,7 +35,7 @@ function Navbar() {
       gap="2"
       width="100%"
       background="black"
-      p={2}
+      // p={1}
       zIndex={10}
       position="fixed"
     >

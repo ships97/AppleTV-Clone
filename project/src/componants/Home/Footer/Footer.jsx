@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 import "./Footer.css";
 import TV from "../Images/TV App Logo.png";
+import { DetailsFooter } from "../../HomeDetails/DetailsFooter";
 
 export const Footer = () => {
   return (
+    <>
     <Box>
       <div id="devices-info_container">
         <div className="devices-info">
@@ -90,7 +92,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <footer id="footer">
+      {/* <footer id="footer">
         <div className="main-footer">
           <div className="main-footer_info">
             <div className="copy">
@@ -107,7 +109,10 @@ export const Footer = () => {
           </div>
           <div className="main-footer_country">United States</div>
         </div>
-      </footer>
+      </footer> */}
+
     </Box>
+
+  </>
   );
 };

@@ -107,7 +107,7 @@ import {
                  
                     <Input
                       type="email"
-                      placeholder="    Email address"
+                      placeholder="Email address"
                       name="email"
                       onChange={handleChange}
                     />

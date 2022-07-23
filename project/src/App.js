@@ -1,8 +1,8 @@
 
 import './App.css';
-import { AllRoutes } from './Components/AllRoutes/AllRoutes';
+import { AllRoutes } from './componants/AllRoutes/AllRoutes';
 
-import Navbar from './Components/Home/Navbar/Navbar';
+import Navbar from './componants/Home/Navbar/Navbar';
 
 
 function App() {
