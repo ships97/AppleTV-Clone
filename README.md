@@ -24,7 +24,7 @@ I had a time frame of four days. I completed my project and put efforts from my 
 - TV Shows Page
 
 ## Deployed Link
-https://tvapple-clone.netlify.app
+https://tvapple-clone.netlify.app 
 
 ## Solo Contributor
 - Shipra Singh --> https://github.com/ships97
